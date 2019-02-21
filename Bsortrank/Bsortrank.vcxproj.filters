@@ -39,6 +39,9 @@
     <ClCompile Include="UI\IconLabel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="network\CSDNBlogCrawler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Bsortrank.h">
@@ -60,5 +63,10 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Bsortrank.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="network\CSDNBlogCrawler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
