@@ -17,13 +17,20 @@ namespace networks
 	class CSDNBlogCrawler
 	{
 	public:
+		// Constructor and Deconstructor
 		CSDNBlogCrawler(QString _url);
 		~CSDNBlogCrawler();
+
+		// Functional function
+		bool GetWebpage();
+		void InitExtractionParams();
+
 	private:
+		// Variables
 		QString tmp_HTML;
 		CSDNBloglistType crawlerType = networks::PersonalBlogslist;
 		QString webpagecode;
-		void GetWebpage(QString url);
+		char *pWebpageCode = nullptr;
 	};
 }
 
