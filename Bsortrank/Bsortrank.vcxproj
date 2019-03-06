@@ -114,6 +114,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bsortrank.cpp" />
+    <ClCompile Include="httpsServer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="network\CSDNBlogCrawler.cpp" />
     <ClCompile Include="UI\IconLabel.cpp" />
@@ -139,6 +140,7 @@
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="httpsServer.h" />
     <ClInclude Include="network\CSDNBlogCrawler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
